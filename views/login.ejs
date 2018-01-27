@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OAuth | Login Page</title>
+    <link rel="stylesheet" href="../static/normalize.css">
+    <link rel="stylesheet" href="../static/skeleton.css">
+    
+    <style>
+        *,*:before,*:after{
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 16px;
+        }
+        a{
+            text-decoration: none;
+        }
+        nav{
+            position: absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100px;
+            background-color: #228B22;
+            color:white;
+            padding:25px 0;
+            overflow-y: hidden;
+        }
+.home_btn{
+    font-size:2rem;
+    color: white;
+text-decoration: none;
+line-height: 50px;
+min-width: 200px;
+float: left;
+}
+
+        main{
+            margin-top: 100px;
+        }
+
+
+        section{
+            max-width:900px;
+        }
+
+        .page_title{
+            text-align: center;
+        }
+        nav ul{
+            list-style-type: none;
+margin: 0;
+float: left;
+        }
+        nav li{
+            display: inline-block;
+        }
+        .nav-links{
+            float: right;
+        }
+        .nav-links li{
+            width:150px;
+        }
+        #google_login{
+            color:white;
+            display: inline-flex;
+            background-color:red;
+            width:300px;
+            height: 40px;
+            
+        }
+
+
+    
+    </style>
+</head>
+<body>
+    <nav>
+        <section>
+                <a href="/" class="btn home_btn" >Home Page</a>
+                <ul class="nav-links">
+                    
+                        <li><a href="auth/login">Login</a></li>
+                        <li><a href="auth/logout">Logout</a></li>
+                </ul>
+        </section>
+    </nav>
+<main>
+    <section>
+        <header>
+            <h4 class="page_title">Login With...</h4>
+            <a href="/auth/google" id="google_login">Google+</a>
+        </header>
+    </section>
+
+</main>
+</body>
+</html>

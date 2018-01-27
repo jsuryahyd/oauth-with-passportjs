@@ -1,0 +1,27 @@
+{
+  "name": "oauth-passport",
+  "version": "0.0.1",
+  "description": "Exploring OAuth, using passport where necessary. A code Along of playlist by The Net Ninja",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oauth",
+    "passportjs",
+    "nodejs",
+    "login",
+    "system",
+    "authentication",
+    "system"
+  ],
+  "author": "Jay Surya",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
+  }
+}
