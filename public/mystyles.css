@@ -1,0 +1,69 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
+    background-color: #228B22;
+    color:white;
+    padding:25px 0;
+    overflow-y: hidden;
+}
+.home_btn{
+font-size:2rem;
+color: white;
+text-decoration: none;
+line-height: 50px;
+min-width: 200px;
+float: left;
+}
+
+main{
+    margin-top: 100px;
+}
+
+
+section{
+    max-width:900px;
+    margin: auto;
+    padding:0 1.666rem;
+}
+
+.page_title{
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+margin: 0;
+float: left;
+}
+.nav-links{
+    float: right;
+   
+}
+.nav-links li{
+    width:150px;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    color:white;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 6px;
+}
+nav a:hover{
+    color:green;
+    background-color: white;
+}
