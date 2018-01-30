@@ -4,13 +4,16 @@ const passport = require('passport');
 //auth/login
 router.get("/login", (req, res) => {
   //login template for auth/login
-  res.render("login");
+  res.render("login",{userProfile:req.user});
 });
 
 router.get("/logout", (req, res) => {
   //placeholder functionality
-  res.send("logging you out");
+  // res.send("logging you out");
   //handle with passport
+  //there is a user attached with req object
+  req.logout();//destroys the session
+  res.redirect('/');
 });
 
 // router.get('/google',(req,res)=>{
@@ -35,7 +38,10 @@ router.get("/google", passport.authenticate("google", {
 - it is here, the passport callback function runs.
 */
 router.get('/google/redirect',passport.authenticate('google'),(req,res)=>{
-  res.send('your redirected page');
+  //passport attached user to req obj by now(as 'user'),
+  // res.write('your redirected page')
+  // res.send(req.user);
+res.redirect('/profile/');
 })
 
 // export default router;

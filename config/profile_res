@@ -1,0 +1,24 @@
+{ id: '105543087231584519486',
+  displayName: 'john doe',
+  name: { familyName: 'doe', givenName: 'john' },
+  photos:
+   [ { value: 'https://lh4.googleusercontent.com/-dummy-8b1PmTE/AAAAAAAAAAI/AA--AAAACAc/d62RRNfHj5E/photo.jpg?sz=50'
+    } ],
+  gender: undefined,
+  provider: 'google',
+  _raw: '{\n "kind": "plus#person",\n "etag": "\\"_Ek1oAZn65JmcnNCMkKA/d7ow51cY3Pcskk1t3e9Nh-DnV8Y\\"",\n "objectType": "person",\n "id": "105543087231584519486",\n "displayName": "john doe",\n "name": {\n  "familyName": "doe",\n  "givenName": "john"\n },\n "url": "https://plus.google.com/10-dummy-84519486",\n "image": {\n  "url": "https://lh4.googleusercontent.com/-dummy-8b1PmTE/AAAAAAAAAAI/AA--AAAACAc/d62RRNfHj5E/photo.jpg?sz=50",\n  "isDefault": false\n },\n "isPlusUser": true,\n "language": "en",\n "circledByCount": 0,\n "verified": false\n}\n',
+  _json:
+   { kind: 'plus#person',
+     etag: '"_Ek1oAZn65JmcnNnmHCMkKA/d7ow51cY3Pcskk1t3e9Nh-DnV8Y"',
+     objectType: 'person',
+     id: '105543087231584519486',
+     displayName: 'john doe',
+     name: { familyName: 'doe', givenName: 'john' },
+     url: 'https://plus.google.com/10==dummy==4519486',
+     image:
+      { url: 'https://lh4.googleusercontent.com/-dummy/AAAAAAAAAAI/A--AAACAc/d62RRNfHj5E/photo.jpg?sz=50',
+        isDefault: false },
+     isPlusUser: true,
+     language: 'en',
+     circledByCount: 0,
+     verified: false } }

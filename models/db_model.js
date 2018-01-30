@@ -5,7 +5,8 @@ const mongoose = require('mongoose');
 */
 const userSchema = mongoose.Schema({
     displayName:String,
-    googleID:String
+    googleID:String,
+    thumbnail:String
 });
 
 /*
