@@ -14,3 +14,6 @@ change the name of 'api_keys - copy.js' file to  'api_keys.js' in config folder,
 
 ## others
 - ejs template engine used (not perfectly)
+
+## todo
+- should add other logins - facebook,linkedIn etc
