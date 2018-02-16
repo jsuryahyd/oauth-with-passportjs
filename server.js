@@ -26,7 +26,7 @@ server.use(cookieSession({
 }));
 server.use(passport.initialize());
 server.use(passport.session());
-
+// console.log(passport.session.toString())
 //routes
 server.use('/auth',authRoutes);
 server.use('/profile',profileRoutes);
