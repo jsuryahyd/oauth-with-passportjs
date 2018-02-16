@@ -8,10 +8,10 @@ module.exports = {
         clientSecret :"<clientSecret from your google developer console>",
     },
     mongodb:{
-        dbURI:"mongo db connection uri"
+        dbURI:"mongo db connection uri"//mongodb://<dbuser>:<dbpassword>@ds217138.mlab.com:17138/mongodb_practice
     },
     session:{
         cookieKey:'<random_secret_string>'
     }
-    
+
 }
